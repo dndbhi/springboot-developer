@@ -27,4 +27,9 @@ public class TestController {
     public String deleteTest() {
         return "안녕하세요? /test DELETE 요청에 대한 응답입니다.";
     }
+
+   // @GetMapping("/member")
+   // public String getAllMembers() {
+   //     return "";
+   // }
 }
